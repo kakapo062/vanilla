@@ -6,8 +6,20 @@
   </head>
 
   <body>
-    <div id="app"></div>
-    <p>こんにちは</p>
+    <div class="flex">
+      <input placeholder="ToDO入力" id="text" />
+      <button id="addButton">追加</button>
+    </div>
+
+    <div class="yet_list">
+      <p>未完了リスト</p>
+      <ul id="yet_list"></ul>
+    </div>
+
+    <div class="done_list">
+      <p>完了リスト</p>
+      <ul id="done_list"></ul>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
